@@ -1,5 +1,5 @@
 FROM arm64v8/debian:stretch-20181112 as builder
-COPY qemu-arm-static /usr/bin
+COPY qemu-aarch64-static /usr/bin
 
 # intall gcc and supporting packages
 RUN apt-get update && apt-get install -yq make gcc zlib1g-dev
