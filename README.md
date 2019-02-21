@@ -1,1 +1,1 @@
-# stress-ng-docker image
+# stress-ng docker image
