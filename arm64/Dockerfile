@@ -1,4 +1,4 @@
-FROM arm64v8/debian:stretch-20181112 as builder
+FROM arm64v8/debian:stable as builder
 ADD qemu-aarch64-static /usr/bin
 
 # intall gcc and supporting packages

@@ -1,4 +1,4 @@
-FROM debian:stretch-20181112 as builder
+FROM debian:stable as builder
 
 # intall gcc and supporting packages
 RUN apt-get update && apt-get install -yq make gcc zlib1g-dev
